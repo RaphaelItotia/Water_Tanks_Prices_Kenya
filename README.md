@@ -155,7 +155,45 @@ print(f'The cheapest brand is {brand} with a price of Kshs {price}')
 
 ![]()
 
-5. What is the distribution of tank sizes?
+4. What is the distribution of tank prices by brands and sizes?
+
+```python
+#plotting the clustered column chart
+import seaborn as sns
+
+#define a color palette for diff sizes
+palette = {
+    500: '#1f77b4',   # Blue
+    1000: '#ff7f0e',  # Orange
+    1500: '#2ca02c',  # Green
+    2000: '#d62728',  # Red
+    2500: '#9467bd',  # Purple
+    3000: '#8c564b',  # Brown
+    4000: '#e377c2',  # Pink
+    5000: '#7f7f7f',  # Gray
+    6000: '#bcbd22',  # Olive
+    8000: '#17becf',  # Cyan
+    10000: '#1f77b4', # Light Blue
+    16000: '#ff7f0e', # Light Orange
+    24000: '#2ca02c'  # Light Green
+}
+plt.figure(figsize=(14,8))
+sns.barplot(x='Brand',y='Price (Kshs),hue='Size (Litres)',data=Tanks,palette=palette,errorbar=None)
+
+#adding labels and title
+plt.xlabel('Brands')
+plt.ylabel('Price (Kshs)')
+plt.title('Water Tank Prices by Brand and Size')
+plt.legend(title='Tank size')
+
+#rotating x axis labels for better readability
+plt.xticks(rotation = 45)
+plt.tight_layout()
+plt.show()
+```
+
+![]()
+
 6. Is there a significant difference in prices between brands?
 7. What are the most and least expensive brands on average?
 8. Which brand offers the best value for money based on price per liter?
