@@ -127,7 +127,7 @@ plt.legend()
 plt.show()
 ```
 
-![](Images/logical.PNG)
+![](Images/Logical_consistency.PNG)
 
 It's evident that as tank size increase, the price also increases for each brand.
 
@@ -147,7 +147,7 @@ Let's answer the questions on board:
 Tanks.groupby('Brand')['Price (Kshs)'].agg(['min','max'])
 ```
 
-![]()
+![](Images/Price_range.PNG)
 
 2. How does tank size affect price?
 
@@ -156,7 +156,7 @@ correlation = Tanks['Size (Litres)'].corr(Tanks['Price (Kshs)'])
 print(f'The correlation between size and price is {correlation}')
 ```
 
-![]()
+![](Images/Correlation.PNG)
 
 3. Which brand offers the cheapest tanks for a given size?
 
@@ -209,7 +209,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![]()
+![](Images/Clustered.PNG)
 
 5. Is there a significant difference in prices between brands?
 
@@ -236,7 +236,7 @@ least_expensive_brand = sorted_avg_price_by_brand.index[-1]
 print(f'Most expensive brand on average is {most_expensive_brand}.')
 print(f'Least expensive brand on average is {least_expensive_brand}.')
 ```
-![]()
+![](Images/Expensive.PNG)
 
 8. Which brand offers the best value for money based on price per litre?
 ```python
@@ -244,14 +244,14 @@ Tanks['Price per litre '] = Tanks['Price (Kshs)'] / Tanks['Size (Litres)']
 best_value_brand = Tanks.groupby('Brand')['Price per Litre'].mean().idxmin()
 print(f'Brand offering the best value for money is {best_value_brand}.')
 ```
-
+![](Images/Best_value.PNG)
 ## Interpretation 
 
-The correlation of 0.967868 between size and price of tank indicates a very strong positive relationship. This means that as the size of the water tank increases, the price also increases significantly. Such a high correlation suggests that the size of the tank is a major factor influencing its price.
+The correlation of 0.97389948 between size and price of tank indicates a very strong positive relationship. This means that as the size of the water tank increases, the price also increases significantly. Such a high correlation suggests that the size of the tank is a major factor influencing its price.
 
 In the case of checking whether there is a significant difference in prices between brands, the null hypothesis $H_0$ states that there is no difference in the prices between brands while alternative hypothesis $H_1$
  states there is.
-  - Since I have gotten a p-value of 0.704671, we fail to reject $H_0$
+  - Since I have gotten a p-value of 0.696163, we fail to reject $H_0$
 . This means there is no enough evidence to suggest there are significant differences in prices.
 
 
