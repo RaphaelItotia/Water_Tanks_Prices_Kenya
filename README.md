@@ -111,3 +111,5 @@ plt.show()
 ```
 
 ![](Images/logical.PNG)
+
+It's evident that as tank size increase, the price also increases for each brand.
