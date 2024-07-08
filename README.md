@@ -235,5 +235,18 @@ The correlation of 0.967868 between size and price of tank indicates a very stro
 
 In the case of checking whether there is a significant difference in prices between brands, the null hypothesis $H_0$ states that there is no difference in the prices between brands while $H_1$
  states there is.
-  - Since I have gotten a p-value of 0.704671,we fail to reject $H_0$
+  - Since I have gotten a p-value of 0.704671, we fail to reject $H_0$
 . This means there is no enough evidence to suggest there are significant differences in prices.
+
+
+Most expensive brand is Roto tank while the least expensive is Vectus tank.
+
+
+The brand that offers the best value for money is Vectus tank.
+
+----------
+
+## Conclusion
+This analysis was aiming to shed light on the pricing dynamics of water tanks in Kenya, helping consumers choose the best options based on their needs and budgets.
+
+Prices might differ due to retailer or location.
