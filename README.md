@@ -2,7 +2,7 @@
 
 ![](Images/triple-layered-water-tanks.jpeg)
 
-## Background: 
+# Background: 
 In Kenya, water scarcity is a significant challenge, making water storage solutions such as water tanks critical for both residential and commercial use. Various brands offer water tanks of different sizes and prices. However, consumers often face difficulties in selecting the most cost-effective and reliable water tanks due to the wide range of available options.
 
 ## Objective:
