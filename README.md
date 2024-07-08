@@ -204,6 +204,26 @@ brand_prices = [Tanks[Tanks['Brand'] == brand]['Price (Kshs)'] for brand in Tank
 anova_result = stats.f_oneway(*brand_prices)
 anova_result
 ```
+6. What is the average price of water tanks by brand?
+```python
+average_price_by_brand = Tanks.groupby('Brand')['Price (Kshs)'].mean()
+average_price_by_brand
+```
 
 7. What are the most and least expensive brands on average?
-8. Which brand offers the best value for money based on price per liter?
+
+```python
+sorted_avg_price_by_brand = average_price_by_brand.sort_values(ascending=False)
+most_expensive_brand = sorted_avg_price_by_brand.index[0]
+least_expensive_brand = sorted_avg_price_by_brand.index[-1]
+print(f'Most expensive brand on average is {most_expensive_brand}.')
+print(f'Least expensive brand on average is {least_expensive_brand}.')
+```
+![]()
+
+8. Which brand offers the best value for money based on price per litre?
+```python
+Tanks['Price per litre '] = Tanks['Price (Kshs)'] / Tanks['Size (Litres)']
+best_value_brand = Tanks.groupby('Brand')['Price per Litre'].mean().idxmin()
+print(f'Brand offering the best value for money is {best_value_brand}.')
+```
