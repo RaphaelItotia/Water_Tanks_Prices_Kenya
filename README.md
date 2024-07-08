@@ -122,7 +122,7 @@ I now have a [dataset]() containing **81** rows and **3** columns ready for anal
 
 ## Data Analysis 
 
-Let's answer the question on board:
+Let's answer the questions on board:
 
 1. What is the price range for each brand?
 
