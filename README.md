@@ -249,4 +249,4 @@ The brand that offers the best value for money is Vectus tank.
 ## Conclusion
 This analysis was aiming to shed light on the pricing dynamics of water tanks in Kenya, helping consumers choose the best options based on their needs and budgets.
 
-Prices might differ due to retailer or location.
+Material quality, brand reputation, retailer, and location are other factors that affect the prices.
