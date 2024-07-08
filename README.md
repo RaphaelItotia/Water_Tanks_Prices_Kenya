@@ -13,8 +13,9 @@ The objective of this analysis is to understand the pricing patterns of water ta
 3. Which brand offers the cheapest tanks for a given size?
 4. What is the distribution of tank sizes?
 5. Is there a significant difference in prices between brands?
-6. What are the most and least expensive brands on average?
-7. Which brand offers the best value for money based on price per liter?
+6. What is the average price of water tanks by brand?
+7. What are the most and least expensive brands on average?
+8. Which brand offers the best value for money based on price per liter?
 
 ## Data collection
 
