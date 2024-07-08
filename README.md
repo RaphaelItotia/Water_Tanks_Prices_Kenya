@@ -196,6 +196,8 @@ plt.show()
 
 5. Is there a significant difference in prices between brands?
 
+I shall perform an ANOVA test to determine if there are significant differences in prices among brands.
+
 ```python
 from scipy import stats
 brand_prices = [Tanks[Tanks['Brand'] == brand]['Price (Kshs)'] for brand in Tanks['Brands'].unique()]
