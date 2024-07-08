@@ -221,6 +221,9 @@ brand_prices = [Tanks[Tanks['Brand'] == brand]['Price (Kshs)'] for brand in Tank
 anova_result = stats.f_oneway(*brand_prices)
 anova_result
 ```
+
+![](Images/pvalue.PNG)
+
 6. What is the average price of water tanks by brand?
 ```python
 average_price_by_brand = Tanks.groupby('Brand')['Price (Kshs)'].mean()
