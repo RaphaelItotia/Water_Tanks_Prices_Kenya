@@ -96,7 +96,7 @@ Tanks.duplicated().sum()
 ```python
 Tanks.dtypes
 ```
-![]()
+![](Images/data_types.PNG)
 
 ### d. Check for logical consistency 
 Whether higher capacity tanks generally cost more.
@@ -110,4 +110,4 @@ plt.title('Tank size vs Price')
 plt.show()
 ```
 
-![]()
+![](Images/logical.PNG)
