@@ -99,6 +99,7 @@ Tanks.dtypes
 ![]()
 
 ### d. Check for logical consistency 
+Whether higher capacity tanks generally cost more.
 
 ```python
 import matplotlib.pyplot as plt
