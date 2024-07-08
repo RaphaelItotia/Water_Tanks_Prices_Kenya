@@ -235,4 +235,5 @@ The correlation of 0.967868 between size and price of tank indicates a very stro
 
 In the case of checking whether there is a significant difference in prices between brands, the null hypothesis $H_0$ states that there is no difference in the prices between brands while $H_1$
  states there is.
-  - Since I have gotten a p-value of 0.704671,we fail to reject \( H_0 \). This means there is no enough evidence to suggest there are significant differences in prices.
+  - Since I have gotten a p-value of 0.704671,we fail to reject $H_0$
+. This means there is no enough evidence to suggest there are significant differences in prices.
