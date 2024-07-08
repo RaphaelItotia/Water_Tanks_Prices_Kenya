@@ -105,7 +105,7 @@ import matplotlib.pyplot as plt
 plt.scatter(Tanks['Size (Litres)'], Tanks['Price (Kshs)'])
 plt.xlabel('Tank Size (Litres)')
 plt.ylabel('Tank Price (Kshs)')
-plt.title ('Tank size vs Price')
+plt.title('Tank size vs Price')
 plt.show()
 ```
 
