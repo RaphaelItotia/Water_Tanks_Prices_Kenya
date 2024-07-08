@@ -82,7 +82,7 @@ Tanks = pd.read_csv(r'file_path')
 ```python
 Tanks.isnull().sum()
 ```
-![]()
+![](Images/missing_values.PNG)
 
 ### b. Check for duplicates 
 
