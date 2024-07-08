@@ -69,4 +69,44 @@ df.to_csv('Water_tank_prices_Kenya. csv', index = False)
 
 ## Data Quality Check 
 
-### a. Check missing values
+After saving the DataFrame as CSV file, I later load the data: 
+
+```python
+import pandas as pd
+
+Tanks = pd.read_csv(r'file_path')
+``` 
+
+### a. Check for missing values
+
+```python
+Tanks.isnull().sum()
+```
+![]()
+
+### b. Check for duplicates 
+
+```python
+Tanks.duplicated().sum()
+```
+![]() 
+
+### c. Validate data types 
+
+```python
+Tanks.dtypes
+```
+![]()
+
+### d. Check for logical consistency 
+
+```python
+import matplotlib.pyplot as plt
+plt.scatter(Tanks['Size (Litres)'], Tanks['Price (Kshs)'])
+plt.xlabel('Tank Size (Litres)')
+plt.ylabel('Tank Price (Kshs)')
+plt.title ('Tank size vs Price')
+plt.show()
+```
+
+![]()
