@@ -179,7 +179,7 @@ palette = {
     24000: '#2ca02c'  # Light Green
 }
 plt.figure(figsize=(14,8))
-sns.barplot(x='Brand',y='Price (Kshs),hue='Size (Litres)',data=Tanks,palette=palette,errorbar=None)
+sns.barplot(x='Brand',y='Price (Kshs)',hue='Size (Litres)',data=Tanks,palette=palette,errorbar=None)
 
 #adding labels and title
 plt.xlabel('Brands')
