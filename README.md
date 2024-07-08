@@ -104,10 +104,26 @@ Whether higher capacity tanks generally cost more.
 
 ```python
 import matplotlib.pyplot as plt
-plt.scatter(Tanks['Size (Litres)'], Tanks['Price (Kshs)'])
+colors = {'Roto tank': 'blue',  
+    'Jumbo tank': 'orange', 
+    'Vectus tank': 'green',  
+    'Toptank': 'red', 
+    'Kentank': 'purple',  
+    'Mamba tank': 'brown', 
+    'Premier tank': 'pink', 
+    'Royal tank': 'gray', 
+    'Techno tank': 'black', 
+         }
+plt.figure(figsize=(14,8))
+
+for brand in Tanks['Brand'].unique():
+    plt.scatter(Tanks[Tanks['Brand'] == brand]['Size (Litres)'],Tanks[Tanks['Brand'] == brand]['Price (Kshs)'],
+                color=colors[brand],label=brand,s=50)
+
 plt.xlabel('Tank Size (Litres)')
-plt.ylabel('Tank Price (Kshs)')
+plt.ylabel('Tank Price (Ksh)')
 plt.title('Tank size vs Price')
+plt.legend()
 plt.show()
 ```
 
