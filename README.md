@@ -116,7 +116,7 @@ It's evident that as tank size increase, the price also increases for each brand
 
 ---------------
 
-I now have a [dataset]() containing **81** rows and **3** columns ready for analysis.
+I now have a [dataset]() containing **109** rows and **3** columns ready for analysis.
 
 -------------
 
