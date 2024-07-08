@@ -117,3 +117,45 @@ It's evident that as tank size increase, the price also increases for each brand
 ---------------
 
 I now have a [dataset]() containing **81** rows and **3** columns ready for analysis.
+
+-------------
+
+## Data Analysis 
+
+Let's answer the question on board:
+
+1. What is the price range for each brand?
+
+```python
+Tanks.groupby('Brand')['Price (Kshs)'].agg(['min','max'])
+```
+
+![]()
+
+2. How does tank size affect price?
+
+```python
+correlation = Tanks['Size (Litres)'].corr(Tanks['Price (Kshs)'])
+print(f'The correlation between size and price is {correlation}')
+```
+
+![]()
+
+3. Which brand offers the cheapest tanks for a given size?
+
+```python
+def cheapest_brand_for_size(size):
+    filtered_Tanks = Tanks[Tanks['Size (Litres)'] == size]
+    cheapest_tank = filtered_Tanks.loc[filtered_Tanks['Price (Kshs)'].idxmin()]
+    return cheapest_tank['Brand'], cheapest_tank['Price (Kshs)']
+
+brand, price = cheapest_brand_for_size(24000) #input any value of the size to get the cheapest brand and at what cost
+print(f'The cheapest brand is {brand} with a price of Kshs {price}')
+```
+
+![]()
+
+5. What is the distribution of tank sizes?
+6. Is there a significant difference in prices between brands?
+7. What are the most and least expensive brands on average?
+8. Which brand offers the best value for money based on price per liter?
