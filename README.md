@@ -66,3 +66,7 @@ df = pd.DataFrame(data)
 #Optionally, save the DataFrame to a csv file
 df.to_csv('Water_tank_prices_Kenya. csv', index = False)
 ```
+
+## Data Quality Check 
+
+### a. Check missing values
