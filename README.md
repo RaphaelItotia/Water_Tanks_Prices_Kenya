@@ -194,6 +194,14 @@ plt.show()
 
 ![]()
 
-6. Is there a significant difference in prices between brands?
+5. Is there a significant difference in prices between brands?
+
+```python
+from scipy import stats
+brand_prices = [Tanks[Tanks['Brand'] == brand]['Price (Kshs)'] for brand in Tanks['Brands'].unique()]
+anova_result = stats.f_oneway(*brand_prices)
+anova_result
+```
+
 7. What are the most and least expensive brands on average?
 8. Which brand offers the best value for money based on price per liter?
