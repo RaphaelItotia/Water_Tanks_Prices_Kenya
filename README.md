@@ -11,6 +11,7 @@
 - [Data Quality Check](#data-quality-check)
 - [Data Analysis](#data-analysis)
 - [Interpretation](#interpretation)
+- [Recommendations](#recommendations)
 - [Conclusion](#conclusion)
 
 ## Background: 
