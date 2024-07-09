@@ -293,7 +293,20 @@ The brand that offers the best value for money is Vectus tank.
    - Determine the Right Size: Calculate the water storage capacity you need based on your household or business requirements. Larger tanks might be more cost-effective in the long run if you have high water usage.
    - Space Availability: Ensure you have enough space for the size of the tank you are considering.
 
+4. **Check for Deals and Discounts**:
+
+   - Seasonal Promotions: Look out for seasonal promotions. Some brands might offer discounts during certain times of the year.
+   - Bulk Purchase Discounts: If you need multiple tanks, check if there are discounts for bulk purchases.
+
+5. **Consider Long-Term Costs**:
+
+   - Maintenance and Repairs: Sometimes, a slightly more expensive tank with lower maintenance costs can be more economical in the long run.
+   - Operational Efficiency: Some tanks might have features that save water or are more energy-efficient, reducing operational costs.
+  
+6. **Seek Expert Advice**:
+
+   - Consult with Professionals: If you are unsure about the best option, consult with a water management professional or a supplier to get personalized advice based on your specific needs.
+   
 ## Conclusion
 This analysis was aiming to shed light on the pricing dynamics of water tanks in Kenya, helping consumers choose the best options based on their needs and budgets.
 
-Material quality, brand reputation, retailer, and location are other factors that affect the prices.
