@@ -288,6 +288,10 @@ The brand that offers the best value for money is Vectus tank.
    - Research Brand Reliability: Choose brands with a reputation for durability and quality. Customer reviews and ratings can be very helpful.
    - Warranty and After-Sales Service: Look for brands that offer good warranty terms and reliable after-sales service
 
+3. **Identify Your Needs**:
+
+   - Determine the Right Size: Calculate the water storage capacity you need based on your household or business requirements. Larger tanks might be more cost-effective in the long run if you have high water usage.
+   - Space Availability: Ensure you have enough space for the size of the tank you are considering.
 
 ## Conclusion
 This analysis was aiming to shed light on the pricing dynamics of water tanks in Kenya, helping consumers choose the best options based on their needs and budgets.
