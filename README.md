@@ -278,6 +278,13 @@ Most expensive brand is Roto tank while the least expensive is Vectus tank.
 The brand that offers the best value for money is Vectus tank.
 
 ----------
+## Recommendations
+
+1. **Compare Prices Across Brands**:
+   - This helps to quickly identify which brands offer better value for specific tank sizes.
+
+
+
 
 ## Conclusion
 This analysis was aiming to shed light on the pricing dynamics of water tanks in Kenya, helping consumers choose the best options based on their needs and budgets.
