@@ -57,7 +57,8 @@ for row in rows[1:]: #skip the header row
         sizes.append(size)
         brands.append(brand)
         prices.append(price)
-
+```
+```python
 #Create a DataFrame
 data = {
 'Size (Litres)' : sizes,
