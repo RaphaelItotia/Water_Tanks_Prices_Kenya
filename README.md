@@ -1,6 +1,6 @@
 ![](Images/Header_Tanks.PNG)
 
-# Table of content 
+## Table of content 
 
 - [Background](#background)
 - [Objective](#objective)
@@ -12,13 +12,13 @@
 - [Recommendations](#recommendations)
 - [Conclusion](#conclusion)
 
-## Background: 
+### Background: 
 In Kenya, water scarcity is a significant challenge, making water storage solutions such as water tanks critical for both residential and commercial use. Various brands offer water tanks of different sizes and prices. However, consumers often face difficulties in selecting the most cost-effective and reliable water tanks due to the wide range of available options.
 
-## Objective:
+### Objective:
 The objective of this analysis is to understand the pricing patterns of water tanks in Kenya across different brands and sizes. By analyzing the data on water tank prices, sizes, and brands, I aim to provide insights that can help consumers make informed purchasing decisions.
 
-## Key questions: 
+### Key questions: 
 
 1. What is the price range for each brand?
 2. How does tank size affect price?
@@ -29,7 +29,7 @@ The objective of this analysis is to understand the pricing patterns of water ta
 7. What are the most and least expensive brands on average?
 8. Which brand offers the best value for money based on price per litre?
 
-## Data collection
+### Data collection
 
 I shall apply web scrapping method using **Python** to get the data from a webpage.
 
@@ -81,7 +81,7 @@ df = pd.DataFrame(data)
 df.to_csv('Water_tank_prices_Kenya. csv', index = False)
 ```
 
-## Data Quality Check 
+### Data Quality Check 
 
 After saving the DataFrame as CSV file, I later load the data: 
 
@@ -91,28 +91,28 @@ import pandas as pd
 Tanks = pd.read_csv(r'file_path')
 ``` 
 
-### a. Check for missing values
+#### a. Check for missing values
 
 ```python
 Tanks.isnull().sum()
 ```
 ![](Images/missing_values.PNG)
 
-### b. Check for duplicates 
+#### b. Check for duplicates 
 
 ```python
 Tanks.duplicated().sum()
 ```
 ![]() 
 
-### c. Validate data types 
+#### c. Validate data types 
 
 ```python
 Tanks.dtypes
 ```
 ![](Images/data_types.PNG)
 
-### d. Check for logical consistency 
+#### d. Check for logical consistency 
 Whether higher capacity tanks generally cost more.
 
 ```python
@@ -150,7 +150,7 @@ I now have a [dataset](Assets/Water_tank_prices_Kenya.csv) containing **109** ro
 
 -------------
 
-## Data Analysis 
+### Data Analysis 
 
 Let's answer the questions on board:
 
@@ -261,7 +261,7 @@ best_value_brand = Tanks.groupby('Brand')['Price per Litre'].mean().idxmin()
 print(f'Brand offering the best value for money is {best_value_brand}.')
 ```
 ![](Images/Best_value.PNG)
-## Interpretation 
+### Interpretation 
 
 The correlation of 0.97389948 between size and price of tank indicates a very strong positive relationship. This means that as the size of the water tank increases, the price also increases significantly. Such a high correlation suggests that the size of the tank is a major factor influencing its price.
 
@@ -277,7 +277,7 @@ Most expensive brand is Roto tank while the least expensive is Vectus tank.
 The brand that offers the best value for money is Vectus tank.
 
 ----------
-## Recommendations
+### Recommendations
 
 1. **Compare Prices Across Brands**:
    - This helps to quickly identify which brands offer better value for specific tank sizes.
@@ -306,6 +306,6 @@ The brand that offers the best value for money is Vectus tank.
 
    - Consult with Professionals: If you are unsure about the best option, consult with a water management professional or a supplier to get personalized advice based on your specific needs.
    
-## Conclusion
+### Conclusion
 This analysis was aiming to shed light on the pricing dynamics of water tanks in Kenya, helping consumers choose the best options based on their needs and budgets.
 
