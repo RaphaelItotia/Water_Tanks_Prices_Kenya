@@ -1,6 +1,4 @@
-# Analysis of Water Tank Prices in Kenya using Python
-
-![](Images/triple-layered-water-tanks.jpeg)
+![](Images/Header_Tanks.PNG)
 
 # Table of content 
 
