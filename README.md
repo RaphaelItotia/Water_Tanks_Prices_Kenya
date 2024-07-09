@@ -283,7 +283,10 @@ The brand that offers the best value for money is Vectus tank.
 1. **Compare Prices Across Brands**:
    - This helps to quickly identify which brands offer better value for specific tank sizes.
 
+2. **Consider Brand Reputation**:
 
+   - Research Brand Reliability: Choose brands with a reputation for durability and quality. Customer reviews and ratings can be very helpful.
+   - Warranty and After-Sales Service: Look for brands that offer good warranty terms and reliable after-sales service
 
 
 ## Conclusion
