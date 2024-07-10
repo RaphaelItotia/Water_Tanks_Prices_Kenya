@@ -61,11 +61,13 @@ My [dataset](Assets/Water_tank_prices_Kenya.csv) has **3** columns:
 #### d. Check for logical consistency 
  - Whether higher capacity tanks generally cost more.
 
+ [Here](Assets/Data_Analysis.ipynb) is the code.
 
 ---------------
 
 ### Data Analysis 
 
+This is the stage where I got the answer to the [8 key questions](#key-questions).
 
 ### Interpretation 
 
