@@ -37,7 +37,7 @@ The objective of this analysis is to understand the pricing patterns of water ta
 
 I shall apply [web scrapping]() method using **Python** to get the data from a webpage.
 
-My dataset has **3** columns:
+My [dataset](Assets/Water_tank_prices_Kenya.csv) has **3** columns:
  - Size (Litres) - Capacity of the water tank
  - Brand - Manufacturer of the tank
  - Price (Kshs) - Cost of the tank in Kenyan shillings
@@ -108,10 +108,6 @@ plt.show()
 It's evident that as tank size increase, the price also increases for each brand.
 
 ---------------
-
-I now have a [dataset](Assets/Water_tank_prices_Kenya.csv) containing **109** rows and **3** columns ready for analysis.
-
--------------
 
 ### Data Analysis 
 
