@@ -35,55 +35,14 @@ The objective of this analysis is to understand the pricing patterns of water ta
 
 ### Data collection
 
-I shall apply web scrapping method using **Python** to get the data from a webpage.
+I shall apply [web scrapping]() method using **Python** to get the data from a webpage.
 
-```python
-import requests
-from bs4 import BeautifulSoup
-import pandas as pd
+My dataset has **3** columns:
+ - Size (Litres) - Capacity of the water tank
+ - Brand - Manufacturer of the tank
+ - Price (Kshs) - Cost of the tank in Kenyan shillings
+ 
 
-#URL of the page to scrape
-url = ''
-
-#Send a GET request to the page
-response = requests. get(url)
-
-#Parse the page content
-soup = BeautifulSoup(response.content,'html.parser')
-
-#Find the table in the page assuming the table is in a apecific class or id
-table = soup.find ('table')
-
-#Initialize lists to store the data
-sizes = []
-brands = []
-prices = []
-
-#Extract table rows
-rows = table. find_all('tr')
-for row in rows[1:]: #skip the header row
-    cells = row.find_all('td')
-    if len(cells) == 3:
-        size = cells [0].text.strip ()
-        brand = cells [1].text.strip()
-        price = cells [2].text.strip ()
-
-        sizes.append(size)
-        brands.append(brand)
-        prices.append(price)
-```
-```python
-#Create a DataFrame
-data = {
-'Size (Litres)' : sizes,
-'Brand' : brands,
-'Prices (Kshs)' : prices
-}
-df = pd.DataFrame(data)
-
-#Optionally, save the DataFrame to a csv file
-df.to_csv('Water_tank_prices_Kenya. csv', index = False)
-```
 
 ### Data Quality Check 
 
