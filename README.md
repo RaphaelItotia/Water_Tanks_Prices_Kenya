@@ -1,5 +1,9 @@
 ![](Images/Header_Tanks.PNG)
 
+## Technologies:
+- Python (Data analysis and visualization)
+- Libraries: Pandas (Data manipulation), NumPy (Numerical computing), Matplotlib/Seaborn (Data visualization)
+
 ## Table of content 
 
 - [Background](#background)
