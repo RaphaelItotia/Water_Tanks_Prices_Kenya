@@ -1,7 +1,7 @@
 ![](Images/Header_Tanks.PNG)
 
 ## Technologies:
-- Python (Data analysis and visualization)
+- `Python` (Data analysis and visualization)
 - Libraries: Pandas (Data manipulation), NumPy (Numerical computing), Matplotlib/Seaborn (Data visualization)
 
 ## Table of content 
@@ -35,7 +35,7 @@ The objective of this analysis is to understand the pricing patterns of water ta
 --------
 ### Data collection
 
-I shall apply [web scrapping](Assets/web_scrape.ipynb) method using **Python** to get the data from a webpage.
+I shall apply [web scrapping](Assets/web_scrape.ipynb) method using **Python** to get the data from a `webpage`.
 
 My [dataset](Assets/Water_tank_prices_Kenya.csv) has **3** columns:
  - Size (Litres) - Capacity of the water tank
